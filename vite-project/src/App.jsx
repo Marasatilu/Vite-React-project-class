@@ -24,8 +24,8 @@ function App() {
           <Link to="/">Home</Link>
       </header>
       <main>
-      <Topbar/>
-      <Contact/>
+        <Topbar/>
+        <Contact/>
           <Routes>
 
             <Route path="/styleguide" element={ <Styleguide/>} />
