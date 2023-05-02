@@ -7,6 +7,7 @@ import Contact from './views/Contact'
 
 
 
+
 function App() {
 
 
@@ -15,13 +16,14 @@ function App() {
 
       
       <header className='section'>
-        <h1> Project Gamma</h1>
+       
           <Link to="/contact">Contacto</Link>
           <Link to="/styleguide">StyleGuide</Link>
           <Link to="/">Home</Link>
       </header>
       <main>
         <Topbar/>
+        <h1> Project Gamma</h1>
         <Contact/>
           <Routes>
 
