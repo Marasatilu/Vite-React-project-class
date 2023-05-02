@@ -1,7 +1,4 @@
-
-
 import Topbar from './componets/topbar/Topbar'
-import './App.css'
 import './SCSS/global.scss'
 import Styleguide from './views/styleguide/Styleguide'
 import { Link, Route, Routes } from 'react-router-dom'
