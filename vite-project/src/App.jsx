@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import MyTopBarKickass from './componets/topbar/Topbar'
 import './App.css'
 import './SCSS/global.scss'
+import Styleguide from './views/Styleguide'
+import { Link, Route, Routes } from 'react-router-dom'
 
 
 
@@ -33,6 +35,16 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Link to="/styleguide"></Link>
+
+      <Routes>
+
+        <Route path="/styleguide" element={ <Styleguide/>} />
+        
+
+      </Routes>
+
+
     </>
   )
 }
